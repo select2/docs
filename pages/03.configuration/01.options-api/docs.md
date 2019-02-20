@@ -39,6 +39,7 @@ The following is an attempt to provide a comprehensive list of all configuration
 | `placeholder` | string or object | `null` | Specifies the [placeholder](/placeholders) for the control. |
 | `query` | A function taking `params` (including a `callback`) | `Query` | **This option was deprecated in Select2 v4.0, and will be removed in v4.1.** |
 | `resultsAdapter` | | `ResultsAdapter` | Used to override the built-in [ResultsAdapter](/advanced/default-adapters/results). |
+| `searchElement` | string | | Used to change the search Element from `<input>` to `<textarea>` Which allows for tab and newline charachters. Particularly useful for copying and pasting values from a spreadsheet. |
 | `selectionAdapter` | | `SingleSelection` or `MultipleSelection`, depending on the value of `multiple`. | Used to override the built-in [SelectionAdapter](/advanced/default-adapters/selection). |
 | `selectOnClose` | boolean | `false` | Implements [automatic selection](/dropdown#automatic-selection) when the dropdown is closed. |
 | `sorter` | callback | | |
